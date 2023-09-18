@@ -1,6 +1,16 @@
 /* ========== [Theme] ========== */
 
-@import url(//catppuccin.github.io/discord/dist/catppuccin-frappe.theme.css);
+/* == [latte] == 
+@import url(//catppuccin.github.io/discord/dist/catppuccin-latte.theme.css);
+
+/* == [frappe] == */
+@import url(/catppuccin.github.io/discord/dist/catppuccin-frappe.theme.css);
+
+/* == [macchiato] == 
+@import url(//catppuccin.github.io/discord/dist/catppuccin-macchiato.theme.css);
+
+/* == [mocha] ==
+@import url(//catppuccin.github.io/discord/dist/catppuccin-mocha.theme.css);
 
 
 
