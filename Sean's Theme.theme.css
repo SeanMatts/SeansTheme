@@ -1,16 +1,30 @@
 /* ========== [Theme] ========== */
 
-/* == [latte] == 
+
+/* === [Catppuccin] === */
+
+
+/* == [Latte] == 
 @import url(//catppuccin.github.io/discord/dist/catppuccin-latte.theme.css);
 
-/* == [frappe] == */
+/* == [Frappe] == */
 @import url(//catppuccin.github.io/discord/dist/catppuccin-frappe.theme.css);
 
-/* == [macchiato] == 
+/* == [Macchiato] == 
 @import url(//catppuccin.github.io/discord/dist/catppuccin-macchiato.theme.css);
 
-/* == [mocha] ==
+/* == [Mocha] ==
 @import url(//catppuccin.github.io/discord/dist/catppuccin-mocha.theme.css);
+
+
+/* === [Others] === */
+
+
+/* ==[Tokyo Night] == 
+@import url(//dyzean.github.io/Tokyo-Night/main.css);
+
+/* ==[One Dark] == 
+@import url(/frolleks.github.io/one-dark-discord/css/main.css);
 
 
 
