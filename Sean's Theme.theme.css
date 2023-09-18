@@ -1,0 +1,463 @@
+/* ========== [Theme] ========== */
+
+@import url(//catppuccin.github.io/discord/dist/catppuccin-frappe.theme.css);
+
+
+
+
+/* ========== [@imports] ========== */
+
+
+/* == [Mini Themes / Plugins List] == 
+
+@import url(//maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
+
+
+/* == [Mini Themes / Plugins List: Vencord Edition] == */
+
+@import url(//minidiscordthemes.github.io/MinimalAddonCards/MinimalAddonCards.theme.css);
+
+
+/* == [Better Invites] == */
+
+@import url(//maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
+
+
+/* == [Better User Panel V1] == 
+
+@import url(//dablulite.github.io/css-snippets/RedesignedUserPanel/import.css);
+
+
+/* == [Better User Panel V2] == 
+
+@import url(//dablulite.github.io/css-snippets/Omnibar/import.css);
+
+
+/* == [Better User Panel V3] == 
+
+@import url(//dablulite.github.io/css-snippets/UserReimagined/import.css);
+
+
+/* == [Account Details Grid] == */
+
+@import url(//dablulite.github.io/css-snippets/AccountDetailsGrid/import.css);
+
+
+/* == [Fix Nitro Themes] == 
+
+@import url(//dablulite.github.io/css-snippets/NitroThemesFix/import.css);
+
+
+/* == [Better Editor] == 
+
+@import url(//dablulite.github.io/css-snippets/BetterFloatingEditor/import.css);
+
+
+/* == [Profile Skins (Follows Banner Color)] == 
+
+@import url(//maendisease.github.io/BetterDiscordStuff/css/ProfileBannerSkins.css);
+
+
+/* == [Revert Watermark] == */
+
+@import url(//Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css);
+
+
+/* == [Toggles V2] == */
+
+@import url(//dablulite.github.io/css-snippets/TogglesV2/import.css);
+
+
+/* == [Role Color Tint] == */
+
+@import url(//minidiscordthemes.github.io/Snippets/RoleTint/RoleTint.css);
+
+
+/* == [Rounded Discord] == */
+
+@import url(//MarkChan0225.github.io/RoundedDiscord/src/roundeddiscord.css);
+
+
+/* == [Uni Chatbar] == */
+
+@import url(//dablulite.github.io/css-snippets/ConsistentChatbar/import.css);
+
+
+/* == [Fluent Icons] ==   
+
+@import url(//discordstyles.github.io/Fluent/Icons.css);
+
+
+
+
+/* ==================== [DEPENDENCIES] ==================== */
+
+
+/* == [Settings Modal] == */
+
+@import url(//mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
+
+
+/* == [RadialStatus] == */
+
+@import url(//discordstyles.github.io/RadialStatus/dist/RadialStatus.css);
+
+
+
+
+/* ==================== [Core Features] ==================== */
+
+/* ========== [Discolored] ========== */
+
+@import url(//nyri4.github.io/Discolored/main.css); 
+
+
+
+
+/* ========== [Syntax Highlight in Codeblock Messages] ========== */
+
+@import url(//dyzean.github.io/Tokyo-Night/addons/syntax-highlight.css);
+
+
+
+
+/* ========== [Username Background / Chat Bubbles] [Not Compatible With One Another] ========== */
+
+/* == [Chat Bubbles] == */
+
+@import url(//maendisease.github.io/BetterDiscordStuff/css/ChatBubbles.css); 
+
+
+/* == [Username Background] == 
+
+@import url(//dyzean.github.io/Tokyo-Night/addons/username-background.css); 
+
+
+
+
+/* ========== [Titlebars (Windows Only)] ========== */
+
+
+/* == [Declutter] == 
+
+@import url(//dablulite.github.io/css-snippets/DeclutterBar/import.css);
+
+/* == [DTM-16 Titlebar] == 
+
+@import url(//gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css);
+
+
+/* == [ShitOS] == 
+
+@import url(//dablulite.github.io/css-snippets/MacosTitlebar/import.css);
+:root {--mactitlebar-left-margin: 5px; --mactitlebar-top-margin: 10px; --mactitlebar-button-width: 20px; --mactitlebar-button-height: 20px; --mactitlebar-button-border-radius: 50px; --mactitlebar-close-btn-back: #f04747; --mactitlebar-min-btn-back: #faa61a; --mactitlebar-max-btn-back: #43b581; --macbuttons-serverlist-inner-top-margin: 32px; --macbuttons-serverlist-outer-top-margin: 0; --macbuttons-serverlist-outer-height: 100%;}
+
+
+/* == [Fedor] == 
+
+.titleBar-1it3bQ {margin-top: 0; height: 36px; padding: 6px 12px; gap: 8px; position: absolute; right: 0;}
+.winButton-3UMjdg {height: 36px; width: 36px; top: 0; transition: .2s; border-radius: 50%; background-color: var(--background-tertiary) !important; justify-content: center;}
+.container-ZMc96U * {-webkit-app-region: no-drag;}
+.platform-win .container-ZMc96U {width: calc(100% - ((36px * 3) + 24px)); -webkit-app-region: drag;}
+.wordmark-2u86JB {display: none;}
+.platform-win:has(.callContainer-HtHELf) .container-ZMc96U {width: calc(100% - ((36px * 3) + 18px));}
+.layer-86YKbF:has(+ .layer-86YKbF) .container-ZMc96U {-webkit-app-region: no-drag !important;}
+
+
+/* == [Big Dick Titlebar] == */
+
+.winButton-3UMjdg {height: 32px; width: 32px; margin-top: 0px; padding-left: 8px; padding-right: 8px; top: 0;}
+.withFrame-2dL45i {height: fit-content; margin-top: 0px;}
+.wordmarkWindows-2dq6rw {margin-top: 8px; margin-left: 8px; padding: 0px;}
+
+
+
+
+/* ========== [Custom Font] ========== */
+
+
+/* == [Quickand Light] == 
+:root {--font-primary: "Quicksand Light", sans-serif; --font-display: "Quicksand Light", sans-serif; --font-code: "JetBrains Mono Light", sans-serif;}
+
+/* == [Quickand] == 
+:root {--font-primary: "Quicksand", sans-serif; --font-display: "Quicksand", sans-serif; --font-code: "JetBrains Mono Light", sans-serif;}
+ 
+/* == [JetBrains Mono Light] == */
+:root {--font-primary: "JetBrains Mono Light", sans-serif; --font-display: "JetBrains Mono Light", sans-serif; --font-code: "JetBrains Mono Light", sans-serif;}
+
+
+
+
+/* ========== [Better Jump To Present Button] ========== */
+  
+[class*="jumpToPresentBar"] {display: contents;}
+[class*="jumpToPresentBar"] > button:first-child {display: none;}
+[class*="jumpToPresentBar"] > button:last-child {position: absolute; z-index: 1; bottom: 24px; right: 22px; padding: 8px !important; height: auto; background-color: #5865F2; box-shadow: var(--elevation-high); border-radius: 100px; display: flex; font-size: 0px; color: transparent; transition: font-size .2s .1s, color .2s, padding .4s .1s;}
+[class*="jumpToPresentBar"] > button svg {order: -1; margin: 0px; height: 24px; width: 24px; top: auto; margin-right: 0px; margin-left: 0px; color: #FFFFFF; transition: margin .6s;}
+[class*="jumpToPresentBar"]:hover > button {padding: 8px 18px !important; font-size: 14px; color: #FFFFFF; transition: font-size .2s, color .2s .1s, padding .4s;}
+[class*="jumpToPresentBar"]:hover > button svg {margin-right: 2px;margin-left: -6px;}
+
+
+
+
+/* ========== [Better Folders] ========== */
+
+.closedFolderIconWrapper-3tRb2d {display: none;}
+.folderIconWrapper-1oRIZr:not([style=""])::before {position: absolute; content: ""; width: 18px; height: 18px; top: 0; left: 0; right: 0; bottom: 0; margin: auto; background-color: inherit; -webkit-mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat; mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat; transform: scale(1.3335); filter: brightness(1.5) saturate(1.5);}
+
+
+
+
+/* ========== [Better Toasts] ========== 
+
+.toast-1DEQGy, .toast-q3Y4wI {background: #43b581 !important; transform: translateY(10px); padding: 6px 10px 6px 10px !important; border-radius: 5px; box-shadow: var(--elevation-medium), var(--elevation-stroke); font-weight: 500; color: var(--header-primary); opacity: 1; margin-top: 10px;}
+.toast-1DEQGy .icon-q80NJC > path, .toast-q3Y4wI .icon-2QUmmw > path {d: none !important;}
+.toast-1DEQGy .icon-q80NJC,.toast-q3Y4wI .icon-2QUmmw {height: 20px !important; width: 20px !important; margin-top: 0 !important; background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptLTIgMTVsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz48L3N2Zz4=); background-size: 20px 20px;}
+.toast-1DEQGy .colorHeaderPrimary-26Jzh-, .toast-q3Y4wI .colorHeaderPrimary-jN_yGr {font-size: 14px !important; line-height: 20px !important;}
+
+
+
+
+
+
+/* ==================== [MISC. MODULES] ==================== */
+
+
+
+
+
+
+/* ========== [Widescreen settings] ========== 
+
+.sidebarRegion-1VBisG, .sidebarRegionScroller-FXiQOh {justify-content: unset; flex: unset;}
+.contentColumn-1C7as6, .customColumn-2n-oKU, .hero-1aNo0v {max-width: unset;}
+.accountProfileCard-lbN7n- {max-width: 750px;}
+.notificationSettings-1U0JsJ {max-width: 45%;}
+
+
+
+
+/* ========== [Hover Buttons] ========== */
+
+.panels-3wFtMD > .container-YkUktl .flex-2S1XBF > :not(:last-child) {opacity: 0% !important; width: 0px; transition: all 0.2s ease-in-out;}
+.panels-3wFtMD > .container-YkUktl:hover .flex-2S1XBF > :not(:last-child) {opacity: 100% !important; width: 32px;}
+.container-YkUktl {justify-content: space-between;}
+/* .panels-3wFtMD {order: -1;} */
+
+
+
+
+/* ========== [Scrollable Codeblock] ========== */
+
+.markup-eYLPri blockquote, .markup-eYLPri pre > code{max-height:200px; /*Change this to your height preference.*/overflow-x: hidden; overflow-y:scroll;}
+.markup-eYLPri blockquote::-webkit-scrollbar, .markup-eYLPri pre > code::-webkit-scrollbar {width: 15px; height: 15px;}
+.markup-eYLPri blockquote::-webkit-scrollbar-track , .markup-eYLPri pre > code::-webkit-scrollbar-track {border-radius: 10px; background-color: rgba(255 255 255 / 0%);/*Change this to your color choice or just remove it entirely.*/ /* Scrollbar track */}
+.markup-eYLPri blockquote::-webkit-scrollbar-thumb, .markup-eYLPri pre > code::-webkit-scrollbar-thumb {background-color: rgb(120 120 120 / 0%); /*Change this to your color choice or just remove it entirely.*/ /* Scrollbar Thumb */border-radius: 10px;}
+.markup-eYLPri blockquote, .markup-eYLPri pre > code {max-width: 629px;}
+
+
+
+
+/* ========== [Delete Chatbox on Unmessagable Channels] ========== */
+
+.channelTextAreaDisabled-1p2fQv, .channelTextAreaDisabled-1p2fQv > .scrollableContainer-15eg7h{animation: nochat .000001ms forwards;}
+@keyframes nochat{to{height: 0}}
+.wrapper-2SplAX {display: none;}
+
+
+
+
+/* ========== [Custom Message Box Text] ========== */
+
+.textAreaSlate-9-y-k2>div:not([class])>:nth-last-child(2){font-size:0}
+.textAreaSlate-9-y-k2>div:not([class])>:nth-last-child(2):before{content: 'Input Message Package Here:'; font-size: 0.9rem;}
+.textAreaSlate-9-y-k2{overflow: hidden;}
+
+
+
+
+/* ========== [Floating Folder] ========== */
+
+.wrapper-38slSD:active {-webkit-transform: unset; transform: none;}
+[id^="folder-items-"] {position: fixed; top: 0; bottom: 0; z-index: 99;overflow-y: auto; max-height: calc(100vh - 72px);margin: auto auto auto calc(72px + 8px); padding-top: 8px; border-radius: 8px; background: var(--background-floating); -webkit-box-shadow: var(--elevation-high); box-shadow:  var(--elevation-high);}
+[id^="folder-items-"]::-webkit-scrollbar {display: none;}
+
+
+
+
+/* ========== [Hiding Misceleanous Stuff] ========== */
+
+.scroller-kQBbkU::-webkit-scrollbar {display: none}
+.container-2giAcK {display: none;}
+.searchBar-3TnChZ {display: none;}
+.tutorialContainer-2jwoiB, .tutorialContainer-2jwoiB + .listItem-3SmSlK {display: none;}
+.avatar-3521_d {display: none;}
+.channel-1Shao0:has([href$="/@me"],[href$="store"]){display:none;}
+.note-1NN2aP {display: none;}
+.title-3CjiSS {display: none;}
+::-webkit-scrollbar-thumb, ::-webkit-scrollbar-track {display: none;}
+.section-28YDOf:has([class*=note]) > .title-3CjiSS {opacity: 0;} 
+.textarea-_59yqs {display: none;}
+.recentsIcon-F3eO1o, .anchor-1X4H4q[href="https://support.discord.com"], [aria-label="Notification Settings"] {display: none;}
+.content-1jQy2l:before, .form-3gdLxP:before, .children-3xh0VB:after {content: none;}
+.header-3OsQeK, .searchBar-3TnChZ {box-shadow: none;}
+.title-31SJ6t > .toolbar-3_r2xA > .iconWrapper-2awDjA[aria-label$="User Profile" i], .chatContent-3KubbW + .profilePanel-2PWEok {display: none;}
+
+.voiceChannelsButton-SRmgo8 {display: none;}
+
+.app-3xd6d0:has(.withTagAsButton-OsgQ9L:hover, .withTagless-10ooWt:hover) ~ .layerContainer-2lfOPe .tooltip-33Jwqe {display: none;}
+
+.nowPlayingColumn-1eCBCN {display: none;}
+
+.peopleListIten-u6dGxF {display: none;}
+
+.relationshipButtons-3ByBpj .lookFilled-1H2Jvj.colorGreen-jIPCAS {display: none;}
+
+.additionalActionsIcon-3Cy8UU {display: none;}
+
+.badgeList-b3Ajmk.containerWithContent-2Yws8V.container-1gYwHN {display: none;}
+
+.button-2fCJ0o, .emojiButtonNormal-35P0_i, .emojiButton-3FRTuj {display: none;}
+
+.section-28YDOf.section-1TK4Q0.lastSection-q3HCfo {display: none;}
+
+.icon-2W8DHg {display: none;}
+
+.attachWrapper-3slhXI {display: none;}
+
+
+
+
+/* ========== [Custom Home Icon] ========== */
+
+/* == [V1] == 
+
+.homeIcon-r0w4ny {height: 28px;}
+.homeIcon-r0w4ny path {d: path("M7.516 16.7C7.8784 16.7 8.1694 16.3791 8.1838 16.0171 8.1906 15.8462 8.2 15.674 8.2 15.5 8.2 10.1984 11.7683 5.9 17.3338 5.9 19.3811 5.9 21.3254 6.6288 22.9281 7.6747 23.3211 7.9312 23.8106 7.6966 23.8014 7.2274 23.8005 7.1825 23.8 7.1398 23.8 7.1 23.8 1.8068 19.0527-2.5 13.219-2.5 7.3854-2.5 2.638 1.8068 2.638 7.1 2.638 8.59 3.0076 10.0228 3.7183 11.3276 3.9932 11.8323 3.9466 12.4664 3.5445 12.8769L1.7978 14.6604C1.0539 15.4198 1.592 16.7 2.6551 16.7H7.516ZM25.0161 18.9078C24.8039 18.5696 24.7806 18.1502 24.909 17.7722 25.1568 17.0422 25.2845 16.2741 25.2845 15.5 25.2845 11.5292 21.9897 8.3 17.9399 8.3 13.8903 8.3 10.5953 11.5292 10.5953 15.5 10.5953 19.4708 13.8903 22.7 17.9399 22.7H25.2258C26.1693 22.7 26.7437 21.6614 26.2424 20.8622L25.0161 18.9078Z");}
+
+/* == [Shiggy] == */
+
+.homeIcon-r0w4ny path {fill: transparent}
+.homeIcon-r0w4ny {
+    background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsteamuserimages-a.akamaihd.net%2Fugc%2F965350806526295356%2F993A37B5716D4492C48AB57EE789286027D38BCB%2F%3Fimw%3D450%26impolicy%3DLetterbox&f=1&nofb=1&ipt=b648b4868baaae50006df08ac20975403e779ba97c90c33b887bf43f064192ac&ipo=images') center/cover no-repeat;
+    min-width: 60px;
+    min-height: 60px;
+}
+
+
+
+
+/* ========== [Bigger Emotes] ========== */
+
+.emoji.jumboable {width: 96px; height: 96px; border-radius: 0.5rem;}
+
+
+
+
+/* ========== [Rounded Stuff] ========== */
+
+markup-eYLPri messageContent-2t3eCI {border-radius: 20px;}
+
+.embed-hKpSrO {border-radius: 40px;}
+
+code:not(code.inline) {border-radius: 20px !important;}
+
+.roundedBanner-uNt2w-, .userProfileInner-1ngKnf {border-radius: 27px 27px 0 0;}
+.accountProfileCard-lbN7n-, .root-8LYsGj {border-radius: 30px;}
+.userProfileOuter-2tQwNf {border-radius: 30px;}
+.userPopoutInner-nv9Y92::before, .userProfileModalInner-3dx9L9::before {border-radius: 27px;}
+
+.field-21XZwa, .field-21XZwa button {border-radius: 20px !important;}
+
+.contentWrapper-3vHNP2 {border-radius: 30px;}
+
+.menu-2TXYjN, .colorDefault-2_rLdz {border-radius: 20px;}
+
+div.userPopoutOverlayBackground-3A0Pcz.overlayBackground-2aa7wt {border-radius: 27px;}
+
+.userProfileModalOverlayBackground-2dAaBg {border-radius: 27px;}
+
+div.background-3d_SjE {border-radius: 27px;}
+
+link-1-kTxV.linkWihChannelEmoji-3T2y0p {border-radius: 15px;}
+
+
+
+
+/* ========== [Small Fixes] ========== */
+
+.header-2jRmjb > div {display: inline;}
+
+html:not(.app-focused) .isUnread-3Lojb- {border-color: transparent}
+.isUnread-3Lojb- {transition: .15s}
+html:not(.app-focused) .newMessagesBar-1hF-9G {opacity: 0}
+.newMessagesBar-1hF-9G {transition: .15s}
+img[src$="3aa41de486fa12454c3761e8e223442e.png"]{content:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgeG1sbnM6dj0iaHR0cHM6Ly92ZWN0YS5pby9uYW5vIj48cGF0aCBkPSJNMjEuNTkxIDUuMzE4bC03Ljg3IDUuMTY2YS45MTQuOTE0IDAgMCAwLS4zMTYuMzU0bC0xLjIgMi40MDVhLjIyNC4yMjQgMCAwIDEtLjQxIDBsLTEuMi0yLjQwNWEuOTE0LjkxNCAwIDAgMC0uMzE3LS4zNTRsLTcuODctNS4xNjZhLjIzMi4yMzIgMCAwIDAtLjM1NC4yOThsMy4yODkgNi4zOTdhLjIzNi4yMzYgMCAwIDEtLjE4LjMzNUgzLjE4NWEuMjMuMjMgMCAwIDAtLjEzNy40MTdsOC44MTQgNi4zMTVhLjI0My4yNDMgMCAwIDAgLjI3NCAwbDguODE0LTYuMzE1YS4yMy4yMyAwIDAgMC0uMTM3LS40MTdoLTEuOTc2YS4yMzcuMjM3IDAgMCAxLS4yMDYtLjMzNWwzLjMxNC02LjM5N2EuMjMyLjIzMiAwIDAgMC0uMzU1LS4yOThoLjAwMXoiIGZpbGw9IiM0NWRkYzAiLz48L3N2Zz4=")}img[src$="8a88d63823d8a71cd5e390baa45efa02.png"]{content:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgeG1sbnM6dj0iaHR0cHM6Ly92ZWN0YS5pby9uYW5vIj48cGF0aCBmaWxsPSIjOWM4NGVmIiBkPSJNMjEuNTkxIDUuMzE4bC03Ljg3IDUuMTY2YS45MTQuOTE0IDAgMCAwLS4zMTYuMzU0bC0xLjIgMi40MDVhLjIyNC4yMjQgMCAwIDEtLjQxIDBsLTEuMi0yLjQwNWEuOTE0LjkxNCAwIDAgMC0uMzE3LS4zNTRsLTcuODctNS4xNjZhLjIzMi4yMzIgMCAwIDAtLjM1NC4yOThsMy4yODkgNi4zOTdhLjIzNi4yMzYgMCAwIDEtLjE4LjMzNUgzLjE4NWEuMjMuMjMgMCAwIDAtLjEzNy40MTdsOC44MTQgNi4zMTVhLjI0My4yNDMgMCAwIDAgLjI3NCAwbDguODE0LTYuMzE1YS4yMy4yMyAwIDAgMC0uMTM3LS40MTdoLTEuOTc2YS4yMzcuMjM3IDAgMCAxLS4yMDYtLjMzNWwzLjMxNC02LjM5N2EuMjMyLjIzMiAwIDAgMC0uMzU1LS4yOThoLjAwMXoiLz48L3N2Zz4=")}img[src$="011940fd013da3f7fb926e4a1cd2e618.png"]{content:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgeG1sbnM6dj0iaHR0cHM6Ly92ZWN0YS5pby9uYW5vIj48cGF0aCBmaWxsPSIjZjQ3YjY3IiBkPSJNMjEuNTkxIDUuMzE4bC03Ljg3IDUuMTY2YS45MTQuOTE0IDAgMCAwLS4zMTYuMzU0bC0xLjIgMi40MDVhLjIyNC4yMjQgMCAwIDEtLjQxIDBsLTEuMi0yLjQwNWEuOTE0LjkxNCAwIDAgMC0uMzE3LS4zNTRsLTcuODctNS4xNjZhLjIzMi4yMzIgMCAwIDAtLjM1NC4yOThsMy4yODkgNi4zOTdhLjIzNi4yMzYgMCAwIDEtLjE4LjMzNUgzLjE4NWEuMjMuMjMgMCAwIDAtLjEzNy40MTdsOC44MTQgNi4zMTVhLjI0My4yNDMgMCAwIDAgLjI3NCAwbDguODE0LTYuMzE1YS4yMy4yMyAwIDAgMC0uMTM3LS40MTdoLTEuOTc2YS4yMzcuMjM3IDAgMCAxLS4yMDYtLjMzNWwzLjMxNC02LjM5N2EuMjMyLjIzMiAwIDAgMC0uMzU1LS4yOThoLjAwMXoiLz48L3N2Zz4=")}
+.drawerSizingWrapper-1txdWG {left: 243px;}
+
+.search-2Mwzzq:not(.open-1F8u2c) .searchBar-jGtisZ {width: 27px; background-color: transparent;}
+.search-2Mwzzq:not(.open-1F8u2c):hover .searchBar-jGtisZ {width: 100px; background-color: var(--background-tertiary);}
+.search-2Mwzzq:not(.open-1F8u2c) .iconContainer-1RqWJj {transform: scale(1.3);}
+.search-2Mwzzq:not(.open-1F8u2c):hover .iconContainer-1RqWJj {transform: scale(1);}
+.search-2Mwzzq:not(.open-1F8u2c) .icon-18rqoe {color: var(--text-normal);}
+.search-2Mwzzq:not(.open-1F8u2c):hover .icon-18rqoe {color: var(--text-muted);}
+
+.theme-dark .container-YkUktl {background-color:  var(--background-secondary)} 
+
+@font-face {font-family: "Dashless"; src: url("https://vendicated.github.io/random-files/Dashless.woff2") format("woff2");}
+[data-list-item-id^=channels___], /* channel list */
+[class^=titleWrapper] > h1, /* top bar with topic */
+[class^=resultChannel], /* channel name in search */
+[class^=channelMention], /* channel mentions in chat */
+[class^=placeholder][class*=slateTextArea] /* "Send a message in #blah" */
+{font-family: "Dashless", var(--font-primary);}
+
+.side-2ur1Qk :nth-child(8)::before {content: "Friend Requests"; color: inherit; font-size: 16px;}
+.side-2ur1Qk :nth-child(8) {font-size: 0px; height: 32px;}
+
+[class*=messageContent] :is(h1, h2, h3) {color: #e78284;}
+[class*=messageContent] strong {color: #caf1ff;}
+
+
+
+
+/* ========== [Settings Modal] ========== */
+
+:root {--settingsmodalbackground: transparent; --settingsmodalwidth: 980px; --settingsmodalheight: 78vh;}
+#app-mount .layer-86YKbF ~ .layer-86YKbF {border-radius: 30px !important;}
+.auto-2TJ1RH::-webkit-scrollbar {width: 20px; height: 20px;}
+.auto-2TJ1RH::-webkit-scrollbar-thumb, .auto-2TJ1RH::-webkit-scrollbar-track {display: none;}
+
+
+
+
+/* ========== [Radial Status] ========== */
+
+:root {
+  --rs-small-spacing: 2px;
+  --rs-medium-spacing: 3px;
+  --rs-large-spacing: 4px;
+
+  --rs-small-width: 2px;
+  --rs-medium-width: 3px;
+  --rs-large-width: 4px;
+  --rs-avatar-shape: 50%;
+
+  
+  --rs-online-color: #88c0d0;
+  --rs-idle-color: #cb77d3;
+  --rs-dnd-color: #ff6b6d;
+  --rs-offline-color: #747f8d;
+  --rs-streaming-color: #593695;
+  --rs-invisible-color: #747f8d;
+  --rs-bot-color: #5865f2;
+  --rs-phone-color: var(--rs-online-color);
+  --rs-phone-visible: none;
+}
+
+
+
+
+/* ========== [Rounded Discord] ========== */
+
+:root {--radius: 20px;} 
