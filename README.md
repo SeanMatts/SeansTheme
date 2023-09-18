@@ -2,7 +2,7 @@
 ## A Modular Discord Theme
 ### This is a Discord Theme Primarily for Vencord/Vesktop though it has a lot of compatibility with BetterDiscord
 ### Features:
-#### - Catppuccin Colors (Frappe Only)
+#### - Catppuccin Colors 
 #### - Built-In Radial Status and Settings Modal
 #### - Minimalist Design
 #### - Lots of Options
