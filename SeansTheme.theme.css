@@ -5,15 +5,22 @@
 
 
 /* == [Latte] == 
+
 @import url(//catppuccin.github.io/discord/dist/catppuccin-latte.theme.css);
 
+
 /* == [Frappe] == */
+
 @import url(//catppuccin.github.io/discord/dist/catppuccin-frappe.theme.css);
 
+
 /* == [Macchiato] == 
+
 @import url(//catppuccin.github.io/discord/dist/catppuccin-macchiato.theme.css);
 
+
 /* == [Mocha] ==
+
 @import url(//catppuccin.github.io/discord/dist/catppuccin-mocha.theme.css);
 
 
@@ -21,9 +28,12 @@
 
 
 /* ==[Tokyo Night] == 
+
 @import url(//dyzean.github.io/Tokyo-Night/main.css);
 
+
 /* ==[One Dark] == 
+
 @import url(/frolleks.github.io/one-dark-discord/css/main.css);
 
 
@@ -57,9 +67,14 @@
 @import url(//dablulite.github.io/css-snippets/Omnibar/import.css);
 
 
-/* == [Better User Panel V3] == 
+/* == [Better User Panel V3] == */
 
 @import url(//dablulite.github.io/css-snippets/UserReimagined/import.css);
+
+
+/* == [Better User Panel V4] == 
+
+@import url(//dablulite.github.io/css-snippets/SuperUserArea/import.css);
 
 
 /* == [Account Details Grid] == */
@@ -261,7 +276,7 @@
 
 
 
-/* ========== [Hover Buttons] ========== */
+/* ========== [Hover Buttons] ========== 
 
 .panels-3wFtMD > .container-YkUktl .flex-2S1XBF > :not(:last-child) {opacity: 0% !important; width: 0px; transition: all 0.2s ease-in-out;}
 .panels-3wFtMD > .container-YkUktl:hover .flex-2S1XBF > :not(:last-child) {opacity: 100% !important; width: 32px;}
@@ -300,7 +315,7 @@
 
 
 
-/* ========== [Floating Folder] ========== */
+/* ========== [Floating Folder] ========== 
 
 .wrapper-38slSD:active {-webkit-transform: unset; transform: none;}
 [id^="folder-items-"] {position: fixed; top: 0; bottom: 0; z-index: 99;overflow-y: auto; max-height: calc(100vh - 72px);margin: auto auto auto calc(72px + 8px); padding-top: 8px; border-radius: 8px; background: var(--background-floating); -webkit-box-shadow: var(--elevation-high); box-shadow:  var(--elevation-high);}
