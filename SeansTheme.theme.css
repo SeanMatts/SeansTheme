@@ -510,3 +510,47 @@ img[src$="3aa41de486fa12454c3761e8e223442e.png"]{content:url("data:image/svg+xml
 html.custom-theme-background [class^="sidebar_"] {background: var(--bg-overlay-3);}
 html.custom-theme-background [class^="sidebar_"] [class^="panels_"] {background: var(--bg-overlay-1);}
 */
+
+
+
+
+
+/* ========== [Bigger YouTube Embeds] ========== */
+
+[class^="embedWrapper_"]:has(iframe),
+[class^="embedWrapper_"]:has(img[src*="i.ytimg.com"]) {
+  max-width: 750px !important;
+
+  [class^="gridContainer_"] {
+    max-width: 750px !important;
+  }
+
+  [class*="embedMedia_"] {
+    max-width: 750px !important;
+    max-height: unset !important;
+
+    [class^="imageWrapper_"] {
+      max-width: 750px !important;
+      aspect-ratio: 16/9 !important;
+
+      img {
+        max-width: 750px !important;
+        max-height: unset !important;
+        aspect-ratio: 16/9 !important;
+      }
+    }
+
+    & > [class^="embedVideo_"] {
+      max-width: 750px !important;
+      aspect-ratio: 16/9;
+      padding: 0 !important;
+
+      & > iframe {
+        max-width: unset !important;
+        max-height: unset !important;
+        width: 100% !important;
+        height: 100% !important;
+      }
+    }
+  }
+}
