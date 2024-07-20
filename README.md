@@ -10,6 +10,7 @@
 # WARNING!
 #### - This Theme Removes a lot of buttons, disable the "Hiding Misceleanous Stuff" section to have everything shown
 #### - Some modules (CSS snippets) might tank performance if your PC is poopoo
+## - Colors are cooked in the screenshots
 
 # EXTRA NOTES
 ### - Some of the snippets (primarily the ones that modify the titlebar) do not work on Linux because of obvious reasons
