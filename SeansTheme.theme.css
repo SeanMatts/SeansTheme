@@ -362,6 +362,12 @@
 
 * {scrollbar-width: unset !important; scrollbar-color: unset !important;}
 
+header_d58f04{display: none !important;}
+
+heading-xl/semibold_dc00ef defaultColor_e9e35f title_b83a05 marginBottom8_f7730b{display: none !important;}
+
+text-md/normal_dc00ef{display: none !important;}
+
 
 
 
@@ -410,6 +416,9 @@ link-1-kTxV.linkWihChannelEmoji-3T2y0p {border-radius: 15px;}
     border-radius: calc(var(--theme-radius) - 4px);
 }
 
+authBoxExpanded_b83a05 authBox_b83a05 theme-dark images-dark {border-radius: 30px;}
+
+authBox_b83a05 theme-dark images-dark chooseAccountAuthBox_b4df52{border-radius: 30px;}
 
 
 
